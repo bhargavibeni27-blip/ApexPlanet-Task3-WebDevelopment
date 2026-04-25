@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Dynamic web experience</h1>
+  </header>
+
+  <div class="container">
+
+    <!-- Quiz -->
+    <div class="card">
+      <h2>🧠 Quiz</h2>
+      <p id="question"></p>
+      <div id="answers"></div>
+      <p id="score"></p>
+      <button onclick="nextQuestion()">Next</button>
+    </div>
+
+    <!-- Carousel -->
+    <div class="card">
+      <h2>🖼️ Carousel</h2>
+      <img id="carousel-img">
+      <div class="controls">
+        <button onclick="prevImage()">⬅</button>
+        <button onclick="nextImage()">➡</button>
+      </div>
+    </div>
+
+    <!-- API -->
+    <div class="card">
+      <h2>😂 Joke Generator</h2>
+      <button onclick="getJoke()">Get Joke</button>
+      <p id="joke"></p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
